@@ -1,0 +1,29 @@
+A. ANGULAR
+1. Install
+npm install - g @angular/cli
+or
+npm install -g @angular/cli@latest
+
+2. Create new project
+ng new myNewApp
+
+3. Run server
+ng serve -o --poll=2000
+or
+ng port
+or
+npm start
+
+
+B. Bootstrap
+1. Install:
+npm install bootstrap
+2. Import
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+C. Font Awesome
+1. Install (in MainCSS)
+npm install font-awesome
+2. Import (in MainCSS)
+@import "~font-awesome/css/font-awesome.min.css";
